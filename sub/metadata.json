@@ -1,0 +1,7 @@
+{
+    "defaultFunctionName": "GenericWebHook",
+    "description": "Lorem Ipsum Dolor Sit Amet",
+    "name": "Generic Webhook - Node",
+    "language": "JavaScript",
+    "enabledInTryMode": true,
+}
