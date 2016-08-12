@@ -1,8 +1,10 @@
-module.exports = function (context, data) {
+var jwt = require('jsonwebtoken');
+
+module.exports = function (context) {
     context.log('Webhook was triggered!');
 
     context.res = {
-        body: { greeting: 'Hello ' + data.first + ' ' + data.last + '!'}
+        body: { greeting: 'Hello World !'}
     };
 
     context.done();
